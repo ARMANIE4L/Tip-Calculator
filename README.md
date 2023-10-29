@@ -28,8 +28,8 @@ The challenge is to build a tip calculator app that calculates what percentage o
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.github.com/ARMANIE4L/tip-calculator)
-- Live Site URL: [Add live site URL here](https://armanie4l.github.io/tip-calculator)
+- Solution URL: https://www.github.com/ARMANIE4L/tip-calculator)
+- Live Site URL: https://armanie4l.github.io/tip-calculator)
 
 ## My process
 
