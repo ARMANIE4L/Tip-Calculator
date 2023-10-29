@@ -86,6 +86,6 @@ here is a snippet of the js code i'm talking about:
 
 ## Author
 
-- Website - (https://www.github.com/armsnie4l/)
+- Website - (https://www.github.com/armanie4l/)
 - Frontend Mentor - [@armanie4l](https://www.frontendmentor.io/profile/armanie4l)
 - Twitter - [@armanie4l](https://www.twitter.com/armanie4l)
