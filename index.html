@@ -1,79 +1,170 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
   <title>Tip Calculator App</title>
+
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="./style.css">
+
   <link rel="stylesheet" href="./bootstrap.css">
+
   <script src="./script.js"></script>
+
 </head>
+
 <body>
+
     <div id="main-container">
+
       <h3 class="heading">Spli <br> tter</h3>
+
       <div id="innerMainContainer" class="">
+
         <div class="row">
+
           <div id="in-container" class="col-12 col-sm-12 col-md-6 col-lg-6">
 
+
+
             <div class="billInputCont">
+
               <label for="billInput" class="text">Bill</label>
+
               <br>
+
+              <select>
+
+                <option class="option1" id="option1">USD</option>
+
+                <option class="option2" id="option2">NGN</option>
+
+              </select>
+
+
+
+
+
               <input type="number" id="billInput" name="bill" name="billInput">
+
             </div>
+
+
 
             <br>
 
+
+
             <div class="num-container row">
+
               <p class="select-tip">Select Tip % </p>
+
               <br>
+
                 <button class="tipNum1 col-lg-3 col-md-3 col-sm-3 col-3 tip-num" id="tipNumOne">5%</button>
+
                 <button class="tip-num-2 col-lg-3 col-md-3 col-sm-3 col-3 tip-num">10%</button>
+
                 <button class="tip-num-3 col-lg-3 col-md-3 col-sm-3 col-3 tip-num">15%</button>
+
                 <button class="tip-num-4 col-lg-3 col-md-3 col-sm-3 col-3 tip-num">25%</button>
+
                 <button class="tip-num-5 col-lg-3 col-md-3 col-sm-3 col-3 tip-num">50%</button>
+
                 <button class="tip-num-6 col-lg-3 col-md-3 col-sm-3 col-3 tip-num" id="customTipButton">Custom</button>
+
                 <div id="customTipInputContainer"></div>
+
             </div>
+
   
+
             <div class="numOfPeopleCont">
+
                 <label class="numOfPeople" for="numOfPeopleInput">Number of People</label>
+
                 <br>
+
                 <input name="numOfPeopleInput" type="number" id="numOfPeopleInput">
+
                 <div id="numOfPeopleErrorMessage"></div>
+
             </div>
+
     </div>
+
+
 
     <div class="cal-container col-12 col-sm-12 col-md-6 col-lg-6">
+
       <div id="tipAmount">
+
        <p class="tip-word">Tip Amount</p>
+
        <p class="tip-word-2">/ person</p>
+
        <div id="tipNumInputCont">
+
           <div class="tipNumInput" id="tipNumInput"> $0.00 </div>
+
        </div>
+
        <div>
+
         <p class="tip-word">Total</p>
+
         <p class="tip-word-2-b">/ person</p>
+
         <div id="tipNumInputCont2">
+
            <div class="tipNumInput" id="totalTip">$0.00</div>
+
         </div>
+
         <div id="btn">
+
           <button id="resetButton">Reset</button>
+
        </div>
+
       </div>
 
+
+
    </div> 
+
     </div>
+
         </div>
+
       </div>
+
     </div>
+
+    <footer>
+
+      <div class="attribution">
+
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+
+        Coded by <a>Izuchukwu Abugu ARMANIE</a>.
+
+        <br>
+
+        <a href="x.com/armanie4l/">Click to connect with me on Twitter(X)</a>
+
+      </div>
+
+    </footer>
+
   </body>
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a>Izuchukwu Abugu ARMANIE</a>.
-      <br>
-      <a href="https://www.twitter.com/armanie4l/" target="_blank">Click to connect with me on Twitter(X)</a>
-    </div>
-  </footer>
+
 <script src="./bootstrap.js"></script>
+
 </html>
+
